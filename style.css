@@ -1,0 +1,52 @@
+h1 {
+  font-size: 48px;
+}
+h2 {
+  font-size: 36px;
+}
+
+p {
+  margin: 30px;
+  font-size: 22px;
+  text-align: justify;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+.p-info,
+footer {
+  text-align: center;
+}
+.two-images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0 4px;
+}
+
+#image {
+  max-width: 100%;
+  width: 50%;
+  heigth: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 480px) {
+  #image {
+    width: 100%;
+    heigth: auto;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+#img-caption {
+  text-align: center;
+}
